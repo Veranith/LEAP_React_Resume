@@ -1,0 +1,29 @@
+.wrapper {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: grey;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-bottom: 1%;
+}
+
+.portrait {
+    border-radius: 50%;
+    border: 2px solid green;
+    margin-right: 10%;
+}
+
+
+#myName {
+    font-family: cursive;
+    font-size: 600%;
+}
+
+.contact {
+    width: 30%;
+    margin-left: auto;
+    font-size: x-large;
+}
