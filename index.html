@@ -3,6 +3,7 @@
 <head>
     <title>Ryan Robinson</title>
     <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -17,12 +18,14 @@
     -->
 
     <div class="wrapper">
-        <header>
-            <span class="myName"> Ryan Robinson </span>
-            <a href="mailto:Ryan.Robinson@Microsoft.com"> Ryan.Robinson@Microsoft.com </a>
-            <a href="https://www.linkedin.com/in/RyRob"> LinkedIn </a>
-            <a href="https://www.github.com/veranith"> GitHub </a>
-            <img src="https://avatars.githubusercontent.com/u/274507" />
+        <header class="header">  
+            <img src="https://avatars.githubusercontent.com/u/274507" class="portrait" alt="" />
+            <span id="myName"> Ryan Robinson </span>
+            <aside class="contact">
+                <p><a href="mailto:Ryan.Robinson@Microsoft.com"> Ryan.Robinson@Microsoft.com </a></p>
+                <p><a href="https://www.linkedin.com/in/RyRob"> LinkedIn </a></p>
+                <p><a href="https://www.github.com/veranith"> GitHub </a></p>
+            </aside>
         </header>
         
         <h1>
@@ -42,7 +45,7 @@
                     Western Governors University – Bachelor of Science – Network Administration and Security (Expected 2021)
                 </li>
                 <li>
-                    CS50x Introduction to Computer Science
+                    Harvard University - CS50x Introduction to Computer Science
                 </li>
                 <li>
                     Cisco Certified Networking Associate – Routing and Switching, Cyber Ops, Security
